@@ -26,3 +26,19 @@
 
 13.DHCP
 
+## 指令
+
+
+```
+更改使用者名稱
+要先SU
+hostnamectl set-hostname 名稱 
+
+
+
+
+
+```
+
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/week1-1.jpg)
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/week1-2.jpg)
