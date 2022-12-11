@@ -47,11 +47,14 @@ ls
 1. cd /etc/httpd/conf.d
  ls
 2. vim userdir.conf  修改文件誠如片所示
+
 ![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-21.png)
+
 3. systemctl restart httpd 重啟
 
 更換視窗到user@kk1 ~
 4. mkdir public_html 建立資料夾
+
 5. cd public_html/
 ls
 6. echo "hello world" > hi.htm 做一個hi.htm
