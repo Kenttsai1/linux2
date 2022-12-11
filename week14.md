@@ -78,5 +78,6 @@ cd mydata2
 5. 修改完重啟
 6. systemctl restart httpd
 7. 到瀏覽器 輸入192.168.56.108/mydata2/2.htm
+
 ![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-3.png)
 
