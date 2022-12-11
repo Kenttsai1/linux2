@@ -37,8 +37,8 @@ ls
 6. cat /run/httpd.pid
 7. netstat -tunlp | grep 80
 
-![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-1.jpg)
-![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-12.jpg)
-![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-2.jpg)
-![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-3.jpg)
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-1.png)
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-12.png)
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-2.png)
+![](https://github.com/Kenttsai1/linux2/blob/main/LINUXPIC/1205-3.png)
 
