@@ -31,7 +31,9 @@
 
 ```
 更改使用者名稱
+
 要先SU
+
 hostnamectl set-hostname 名稱 
 
 
