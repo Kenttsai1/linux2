@@ -145,9 +145,18 @@ echo "important data" > data.txt
     
     添加
     
+    ```
+    AuthType Basic
+    AuthName "Private File Area"
+    AuthUserFile /var/www/a.com/secure/.htpasswd
+    Require valid-user
+
+    ```
+
     ![](https://i.imgur.com/isZwZ16.png)
 
-    
+    systemctl restart httpd
+
     www.a.com/secure/data.txt
     ![](https://i.imgur.com/aiTsl9m.png)
     
