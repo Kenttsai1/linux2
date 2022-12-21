@@ -131,7 +131,7 @@ echo "important data" > data.txt
     
 2.  為使用者設定密碼
 
-    回到 /var/www/html/a.com/secure
+    回到 /var/www/a.com/secure
     
     設定密碼檔
     
