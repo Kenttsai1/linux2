@@ -3,15 +3,21 @@
 # 指令
 
 pwd
+
 cd /var/www
 ls
+
 mkdir a.com b.com
 ls
+
 cd a.com
+
 echo "www.a.com" > index.html
 cd..
+
 cd b.com
 echo "www.b.com" > index.html
+
 cd /etc/httpd/conf.d
 
 
