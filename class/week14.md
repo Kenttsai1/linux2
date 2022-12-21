@@ -9,7 +9,7 @@ Disable
 cat /etc/selinux/config
 
 ```
-SELLINUX=disable
+SELLINUX=disabled
 ```
 systemctl status firewalld
 ```
