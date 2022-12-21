@@ -27,7 +27,7 @@ rpm -qa | grep httpd
 pwd
 ls
 
-2. cd conf
+2. cd /etc/httpd/conf
 ls
 3. vim httpd.conf 修改
 修改後重啟
@@ -42,8 +42,9 @@ ls
 
 
 
-## 模組設定
-系統內使用者可以使用個人網頁
+# 模組設定
+## 系統內使用者可以使用個人網頁
+
 1. cd /etc/httpd/conf.d
  ls
 2. vim userdir.conf  修改文件誠如片所示

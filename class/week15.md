@@ -3,43 +3,48 @@
 # 指令
 
 pwd
-
 cd /var/www
-
 ls
-
 mkdir a.com b.com
-
 ls
-
 cd a.com
-
 echo "www.a.com" > index.html
-
 cd..
-
 cd b.com
-
 echo "www.b.com" > index.html
-
 cd /etc/httpd/conf.d
-
 vim a.com.conf b.com.conf
-
 ```
 <VirtualHost *:80>
-    ServerName example.com  |a.com b.com
-    ServerAlias www.example.com |a.com b.com
-    ServerAdmin webmaster@example.com |a.com b.com
-    DocumentRoot /var/www/example.com/public_html |a.com b.com
+    ServerName a.com
+    ServerAlias www.a.com
+    ServerAdmin webmaster@a.com
+    DocumentRoot /var/www/a.com
 
-    <Directory /var/www/example.com/public_html> |a.com b.com
+    <Directory /var/www/a.com>
         Options -Indexes +FollowSymLinks
         AllowOverride All
     </Directory>
 
-    ErrorLog /var/log/httpd/example.com-error.log
-    CustomLog /var/log/httpd/example.com-access.log combined
+    ErrorLog /var/log/httpd/a.com-error.log
+    CustomLog /var/log/httpd/a.com-access.log combined
+</VirtualHost>
+```
+b.com.conf
+```
+<VirtualHost *:80>
+    ServerName b.com
+    ServerAlias www.b.com
+    ServerAdmin webmaster@b.com
+    DocumentRoot /var/www/b.com
+
+    <Directory /var/www/b.com>
+        Options -Indexes +FollowSymLinks
+        AllowOverride All
+    </Directory>
+
+    ErrorLog /var/log/httpd/b.com-error.log
+    CustomLog /var/log/httpd/b.com-access.log combined
 </VirtualHost>
 ```
 
@@ -52,6 +57,7 @@ vim a.com.conf b.com.conf
 **OK**
 
 ![](https://i.imgur.com/PawjHf8.png)
+
 
 ## 
 
@@ -172,4 +178,6 @@ vim vsftpd.conf
 ![](https://i.imgur.com/fJKlToR.png)
 
 **之後便可以匿名來上傳及下載**
+
+
 
