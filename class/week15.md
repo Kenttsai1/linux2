@@ -13,8 +13,10 @@ cd..
 cd b.com
 echo "www.b.com" > index.html
 cd /etc/httpd/conf.d
-vim a.com.conf b.com.conf
 
+
+
+vim a.com.conf b.com.conf
 
 ```
 <VirtualHost *:80>
@@ -32,6 +34,7 @@ vim a.com.conf b.com.conf
     CustomLog /var/log/httpd/a.com-access.log combined
 </VirtualHost>
 ```
+
 b.com.conf
 ```
 <VirtualHost *:80>
