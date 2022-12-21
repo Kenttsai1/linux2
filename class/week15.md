@@ -14,6 +14,8 @@ cd b.com
 echo "www.b.com" > index.html
 cd /etc/httpd/conf.d
 vim a.com.conf b.com.conf
+
+
 ```
 <VirtualHost *:80>
     ServerName a.com
