@@ -3,4 +3,4 @@
 ### 110910509 蔡宗霖
 
 
-# [MY NOTE](https://github.com/Kenttsai1/linux2/blob/main/class/week14.md)
+# [MY NOTE](https://github.com/Kenttsai1/linux2/tree/main/class)
